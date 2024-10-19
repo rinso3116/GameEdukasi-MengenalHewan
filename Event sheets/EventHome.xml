@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>EventHome</name>
+    <events>
+        <variable constant="0" name="statusSound" sid="933678374754177" static="0" type="text">play</variable>
+        <event-block sid="774803805816382">
+            <conditions>
+                <condition id="17" name="On tap object" sid="344497755038185" type="Touch">
+                    <param id="0" name="Object">btnmuteSound</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="552865216209457">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="202679474909756" type="System">
+                            <param id="0" name="Variable">statusSound</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;play&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="22" name="Set paused" sid="612359416941379" type="Audio">
+                            <param id="0" name="Tag">&quot;main_audio&quot;</param>
+                            <param id="1" name="State">0</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="895954561251001" type="btnmuteSound">
+                            <param id="0" name="Frame number">1</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="704753875894624" type="System">
+                            <param id="0" name="Variable">statusSound</param>
+                            <param id="1" name="Value">&quot;stop&quot;</param>
+                        </action>
+                        <action id="0" name="Play" sid="240846142875868" type="Audio">
+                            <param id="0" name="Audio file">mixkit-cool-interface-click-tone-2568</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="764961249663034">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="196115732603755" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="22" name="Set paused" sid="458236537778706" type="Audio">
+                            <param id="0" name="Tag">&quot;main_audio&quot;</param>
+                            <param id="1" name="State">1</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="354657185444901" type="btnmuteSound">
+                            <param id="0" name="Frame number">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="554211615735196" type="System">
+                            <param id="0" name="Variable">statusSound</param>
+                            <param id="1" name="Value">&quot;play&quot;</param>
+                        </action>
+                        <action id="0" name="Play" sid="458727255569220" type="Audio">
+                            <param id="0" name="Audio file">mixkit-cool-interface-click-tone-2568</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="730757838108080">
+            <conditions>
+                <condition id="17" name="On tap object" sid="138503472324995" type="Touch">
+                    <param id="0" name="Object">Element_Game_58Converted_</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="LiteTween" id="10" name="Start" sid="252887566682925" type="profil">
+                    <param id="0" name="Start Mode">0</param>
+                    <param id="1" name="Force use current">0</param>
+                </action>
+                <action behavior="LiteTween" id="10" name="Start" sid="477547929157344" type="36278Converted_">
+                    <param id="0" name="Start Mode">0</param>
+                    <param id="1" name="Force use current">0</param>
+                </action>
+                <action id="0" name="Play" sid="659081370656128" type="Audio">
+                    <param id="0" name="Audio file">mixkit-cool-interface-click-tone-2568</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="364301950350733">
+            <conditions>
+                <condition id="17" name="On tap object" sid="243253073558125" type="Touch">
+                    <param id="0" name="Object">36278Converted_</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="LiteTween2" id="10" name="Start" sid="451702286903900" type="profil">
+                    <param id="0" name="Start Mode">0</param>
+                    <param id="1" name="Force use current">0</param>
+                </action>
+                <action behavior="LiteTween2" id="10" name="Start" sid="479791813598178" type="36278Converted_">
+                    <param id="0" name="Start Mode">0</param>
+                    <param id="1" name="Force use current">0</param>
+                </action>
+                <action id="0" name="Play" sid="206393263858037" type="Audio">
+                    <param id="0" name="Audio file">mixkit-cool-interface-click-tone-2568</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="459650833253630">
+            <conditions>
+                <condition id="17" name="On tap object" sid="473211782330338" type="Touch">
+                    <param id="0" name="Object">btnmengenal</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="727358439480661" type="System">
+                    <param id="0" name="Layout">Banteng</param>
+                </action>
+                <action id="0" name="Play" sid="799490645165534" type="Audio">
+                    <param id="0" name="Audio file">mixkit-cool-interface-click-tone-2568</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="412658515891344">
+            <conditions>
+                <condition id="17" name="On tap object" sid="624557413174052" type="Touch">
+                    <param id="0" name="Object">btnquiz</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="191767696899632" type="System">
+                    <param id="0" name="Layout">Quiz1</param>
+                </action>
+                <action id="0" name="Play" sid="240266791991793" type="Audio">
+                    <param id="0" name="Audio file">mixkit-cool-interface-click-tone-2568</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="467707811209886">
+            <conditions>
+                <condition id="17" name="On tap object" sid="603106701790292" type="Touch">
+                    <param id="0" name="Object">btnmenyusun</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="130432440910731" type="System">
+                    <param id="0" name="Layout">MenyusunBanteng</param>
+                </action>
+                <action id="0" name="Play" sid="862397794754743" type="Audio">
+                    <param id="0" name="Audio file">mixkit-cool-interface-click-tone-2568</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2uistate>
+    <!--This is a UI state file - its content describes the user interface settings when the project was last open.
+It is entirely optional and the project will load without it.  If you are placing the project under source control,
+you probably do not want to add any .uistate.xml files to the repository.-->
+    <configurations>
+        <active>
+            <configuration name="HTML5" />
+        </active>
+        <display name="HTML5" />
+    </configurations>
+    <open-tabs>
+        <layout order="0">Opening1</layout>
+        <layout order="1">MenyusunGajah</layout>
+        <layout order="4">Mewarnai</layout>
+        <layout order="5">Home</layout>
+        <layout order="7">MenyusunBanteng</layout>
+        <layout order="8">MenyusunKoala</layout>
+        <layout active="1" order="12">Quiz3</layout>
+        <event-sheet order="2">EventMenyusunGajah</event-sheet>
+        <event-sheet order="3">EventHome</event-sheet>
+        <event-sheet order="6">EvenMenyusunBanteng</event-sheet>
+        <event-sheet order="9">EventMenyusunKoala</event-sheet>
+        <event-sheet order="11">EventQuiz3</event-sheet>
+    </open-tabs>
+    <properties>
+        <property expanded="1" name="About" />
+        <property expanded="1" name="Project settings" />
+        <property expanded="1" name="Window Size" />
+        <property expanded="1" name="Configuration Settings" />
+    </properties>
+    <families-expanded root="1" />
+    <folders-expanded>
+        <folder expanded="1" path="object-folder/" />
+        <folder expanded="1" path="layout-folder/" />
+        <folder expanded="1" path="event-folder/" />
+        <folder expanded="1" path="file-folder/" />
+        <folder expanded="1" path="sound-folder/" />
+        <folder expanded="1" path="music-folder/" />
+        <folder expanded="0" path="file-folder/Icons/" />
+        <folder expanded="1" path="animation-folder/Sprite/" />
+        <folder expanded="1" path="animation-folder/Sprite2/" />
+        <folder expanded="1" path="animation-folder/Sprite3/" />
+        <folder expanded="1" path="animation-folder/MAINLOGO/" />
+        <folder expanded="1" path="animation-folder/btnmengenal/" />
+        <folder expanded="1" path="animation-folder/btnmenyusun/" />
+        <folder expanded="1" path="animation-folder/btnmewarnai/" />
+        <folder expanded="1" path="animation-folder/btnquiz/" />
+        <folder expanded="1" path="animation-folder/btnmuteSound/" />
+        <folder expanded="1" path="animation-folder/Element_Game_58Converted_/" />
+        <folder expanded="1" path="animation-folder/profil/" />
+        <folder expanded="1" path="animation-folder/36278Converted_/" />
+        <folder expanded="1" path="animation-folder/Sprite4/" />
+        <folder expanded="1" path="animation-folder/Element_Game_58Converted_2/" />
+        <folder expanded="1" path="animation-folder/Element_Game_58Converted_3/" />
+        <folder expanded="1" path="animation-folder/Element_Game_58Converted_4/" />
+        <folder expanded="1" path="animation-folder/Element_Game_58Converted_5/" />
+        <folder expanded="1" path="animation-folder/pausebutton/" />
+        <folder expanded="1" path="animation-folder/Banteng/" />
+        <folder expanded="1" path="animation-folder/Gajah/" />
+        <folder expanded="1" path="animation-folder/Koala/" />
+        <folder expanded="1" path="animation-folder/yvns_xtdx_/" />
+        <folder expanded="1" path="animation-folder/36278Converted_2/" />
+        <folder expanded="1" path="animation-folder/36278Converted_3/" />
+        <folder expanded="1" path="animation-folder/Element_Game_58Converted_6/" />
+        <folder expanded="1" path="animation-folder/36278Converted_4/" />
+        <folder expanded="1" path="animation-folder/36278Converted_5/" />
+        <folder expanded="1" path="animation-folder/SlotHuruf/" />
+        <folder expanded="1" path="animation-folder/HurufAcak/" />
+        <folder expanded="1" path="animation-folder/Element_Game_58Converted_7/" />
+    </folders-expanded>
+</c2uistate>

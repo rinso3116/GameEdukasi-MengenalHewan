@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>EventKoala</name>
+    <events>
+        <variable constant="0" name="status_dub_koala" sid="517197439367008" static="0" type="text">&quot;stop&quot;</variable>
+        <event-block sid="433322273874031">
+            <conditions>
+                <condition id="17" name="On tap object" sid="239407672904312" type="Touch">
+                    <param id="0" name="Object">btnmuteSound</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="688311095672624">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="614494420675468" type="System">
+                            <param id="0" name="Variable">statusSound</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;play&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="22" name="Set paused" sid="574379536059701" type="Audio">
+                            <param id="0" name="Tag">&quot;main_audio&quot;</param>
+                            <param id="1" name="State">0</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="975039192287825" type="btnmuteSound">
+                            <param id="0" name="Frame number">1</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="295523111608528" type="System">
+                            <param id="0" name="Variable">statusSound</param>
+                            <param id="1" name="Value">&quot;stop&quot;</param>
+                        </action>
+                        <action id="0" name="Play" sid="603103387300982" type="Audio">
+                            <param id="0" name="Audio file">mixkit-cool-interface-click-tone-2568</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="759055527511308">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="542156647458278" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="22" name="Set paused" sid="859445490700321" type="Audio">
+                            <param id="0" name="Tag">&quot;main_audio&quot;</param>
+                            <param id="1" name="State">1</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="201399005649836" type="btnmuteSound">
+                            <param id="0" name="Frame number">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="338248797403527" type="System">
+                            <param id="0" name="Variable">statusSound</param>
+                            <param id="1" name="Value">&quot;play&quot;</param>
+                        </action>
+                        <action id="0" name="Play" sid="353549799744536" type="Audio">
+                            <param id="0" name="Audio file">mixkit-cool-interface-click-tone-2568</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="868108167566674">
+            <conditions>
+                <condition id="17" name="On tap object" sid="158917120941157" type="Touch">
+                    <param id="0" name="Object">Element_Game_58Converted_2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="924967383700908" type="Audio">
+                    <param id="0" name="Audio file">mixkit-cool-interface-click-tone-2568</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="33" name="Stop all" sid="115744053277358" type="Audio" />
+                <action id="0" name="Play" sid="510582026840151" type="Audio">
+                    <param id="0" name="Audio file">mixkit-kidding-around-9</param>
+                    <param id="2" name="Loop">1</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;main_audio&quot;</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="172454658072010" type="System">
+                    <param id="0" name="Layout">Home</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="942702522201003">
+            <conditions>
+                <condition id="17" name="On tap object" sid="608937565063807" type="Touch">
+                    <param id="0" name="Object">pausebutton</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="465803786870358">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="633840901872408" type="System">
+                            <param id="0" name="Variable">status_dub_koala</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;stop&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="671450127410896" type="Audio">
+                            <param id="0" name="Audio file">dub_koala (online-audio-converter.com)</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;dub_koala&quot;</param>
+                        </action>
+                        <action id="0" name="Play" sid="348496205257082" type="Audio">
+                            <param id="0" name="Audio file">mixkit-cool-interface-click-tone-2568</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="918983117238344" type="pausebutton">
+                            <param id="0" name="Frame number">1</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="274031281764356" type="System">
+                            <param id="0" name="Variable">status_dub_koala</param>
+                            <param id="1" name="Value">&quot;play&quot;</param>
+                        </action>
+                        <action id="22" name="Set paused" sid="479112570888767" type="Audio">
+                            <param id="0" name="Tag">&quot;main_audio&quot;</param>
+                            <param id="1" name="State">0</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="371428382870389" type="btnmuteSound">
+                            <param id="0" name="Frame number">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="925944115803407">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="830440924223527" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="22" name="Set paused" sid="341877809579832" type="Audio">
+                            <param id="0" name="Tag">&quot;dub_koala&quot;</param>
+                            <param id="1" name="State">0</param>
+                        </action>
+                        <action id="0" name="Play" sid="964933575587866" type="Audio">
+                            <param id="0" name="Audio file">mixkit-cool-interface-click-tone-2568</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="792050500421441" type="pausebutton">
+                            <param id="0" name="Frame number">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="161693356790601" type="System">
+                            <param id="0" name="Variable">status_dub_koala</param>
+                            <param id="1" name="Value">&quot;stop&quot;</param>
+                        </action>
+                        <action id="22" name="Set paused" sid="925817306049960" type="Audio">
+                            <param id="0" name="Tag">&quot;main_audio&quot;</param>
+                            <param id="1" name="State">1</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="750608389929924" type="btnmuteSound">
+                            <param id="0" name="Frame number">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="354022247850309">
+            <conditions>
+                <condition id="17" name="On tap object" sid="220010343915967" type="Touch">
+                    <param id="0" name="Object">Element_Game_58Converted_5</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="742154610809958" type="System">
+                    <param id="0" name="Layout">Gajah</param>
+                </action>
+                <action id="6" name="Stop" sid="100332149125538" type="Audio">
+                    <param id="0" name="Tag">&quot;dub_koala&quot;</param>
+                </action>
+                <action id="22" name="Set paused" sid="961956855671790" type="Audio">
+                    <param id="0" name="Tag">&quot;main_audio&quot;</param>
+                    <param id="1" name="State">1</param>
+                </action>
+                <action id="5" name="Set frame" sid="191394920752056" type="btnmuteSound">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

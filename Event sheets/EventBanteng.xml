@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>EventBanteng</name>
+    <events>
+        <variable constant="0" name="status_dub_banteng" sid="857148583214172" static="0" type="text">&quot;stop&quot;</variable>
+        <event-block sid="216010895203142">
+            <conditions>
+                <condition id="17" name="On tap object" sid="872454244721797" type="Touch">
+                    <param id="0" name="Object">btnmuteSound</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="293879880923378">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="828700674649056" type="System">
+                            <param id="0" name="Variable">statusSound</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;play&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="22" name="Set paused" sid="474051004770549" type="Audio">
+                            <param id="0" name="Tag">&quot;main_audio&quot;</param>
+                            <param id="1" name="State">0</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="634919527190637" type="btnmuteSound">
+                            <param id="0" name="Frame number">1</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="234019413394169" type="System">
+                            <param id="0" name="Variable">statusSound</param>
+                            <param id="1" name="Value">&quot;stop&quot;</param>
+                        </action>
+                        <action id="0" name="Play" sid="968555005373835" type="Audio">
+                            <param id="0" name="Audio file">mixkit-cool-interface-click-tone-2568</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="868206078911188">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="753674942013455" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="22" name="Set paused" sid="986000320480812" type="Audio">
+                            <param id="0" name="Tag">&quot;main_audio&quot;</param>
+                            <param id="1" name="State">1</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="848699024441136" type="btnmuteSound">
+                            <param id="0" name="Frame number">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="133907216359435" type="System">
+                            <param id="0" name="Variable">statusSound</param>
+                            <param id="1" name="Value">&quot;play&quot;</param>
+                        </action>
+                        <action id="0" name="Play" sid="254809856316283" type="Audio">
+                            <param id="0" name="Audio file">mixkit-cool-interface-click-tone-2568</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="845037425876547">
+            <conditions>
+                <condition id="17" name="On tap object" sid="507471177554715" type="Touch">
+                    <param id="0" name="Object">Element_Game_58Converted_2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="242939725973141" type="Audio">
+                    <param id="0" name="Audio file">mixkit-cool-interface-click-tone-2568</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="33" name="Stop all" sid="315643560111545" type="Audio" />
+                <action id="0" name="Play" sid="239388825080999" type="Audio">
+                    <param id="0" name="Audio file">mixkit-kidding-around-9</param>
+                    <param id="2" name="Loop">1</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;main_audio&quot;</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="461999381118152" type="System">
+                    <param id="0" name="Layout">Home</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="591824609458715">
+            <conditions>
+                <condition id="17" name="On tap object" sid="121661305472386" type="Touch">
+                    <param id="0" name="Object">pausebutton</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="738523978765039">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="327851703172578" type="System">
+                            <param id="0" name="Variable">status_dub_banteng</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;stop&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="521130809269535" type="Audio">
+                            <param id="0" name="Audio file">dub_banteng</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;dub_banteng&quot;</param>
+                        </action>
+                        <action id="0" name="Play" sid="846642814158157" type="Audio">
+                            <param id="0" name="Audio file">mixkit-cool-interface-click-tone-2568</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="850983184922795" type="pausebutton">
+                            <param id="0" name="Frame number">1</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="740790349598064" type="System">
+                            <param id="0" name="Variable">status_dub_banteng</param>
+                            <param id="1" name="Value">&quot;play&quot;</param>
+                        </action>
+                        <action id="22" name="Set paused" sid="632486939886444" type="Audio">
+                            <param id="0" name="Tag">&quot;main_audio&quot;</param>
+                            <param id="1" name="State">0</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="732661863244438" type="btnmuteSound">
+                            <param id="0" name="Frame number">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="837456924865598">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="828829032681879" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="22" name="Set paused" sid="135733958591261" type="Audio">
+                            <param id="0" name="Tag">&quot;dub_banteng&quot;</param>
+                            <param id="1" name="State">0</param>
+                        </action>
+                        <action id="0" name="Play" sid="467088829398764" type="Audio">
+                            <param id="0" name="Audio file">mixkit-cool-interface-click-tone-2568</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="998344407676096" type="pausebutton">
+                            <param id="0" name="Frame number">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="470923896841816" type="System">
+                            <param id="0" name="Variable">status_dub_banteng</param>
+                            <param id="1" name="Value">&quot;stop&quot;</param>
+                        </action>
+                        <action id="22" name="Set paused" sid="369591305300301" type="Audio">
+                            <param id="0" name="Tag">&quot;main_audio&quot;</param>
+                            <param id="1" name="State">1</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="913569514784249" type="btnmuteSound">
+                            <param id="0" name="Frame number">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="414964175807956">
+            <conditions>
+                <condition id="17" name="On tap object" sid="791213567247572" type="Touch">
+                    <param id="0" name="Object">Element_Game_58Converted_4</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="131750563822508" type="System">
+                    <param id="0" name="Layout">Gajah</param>
+                </action>
+                <action id="6" name="Stop" sid="211841402910357" type="Audio">
+                    <param id="0" name="Tag">&quot;dub_banteng&quot;</param>
+                </action>
+                <action id="22" name="Set paused" sid="309567139093391" type="Audio">
+                    <param id="0" name="Tag">&quot;main_audio&quot;</param>
+                    <param id="1" name="State">1</param>
+                </action>
+                <action id="5" name="Set frame" sid="903757416154883" type="btnmuteSound">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

@@ -1,0 +1,1556 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>Game Binatang</name>
+    <description>Game Edukasi</description>
+    <version>1.0.0.0</version>
+    <author>raditya santos</author>
+    <author-email></author-email>
+    <author-website>http://</author-website>
+    <app-id>com.mycompany.myapp</app-id>
+    <unique-id>324odje9iqf0f</unique-id>
+    <saved-with-version>27700</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
+        <plugin author="Scirra" id="Particles" version="1">Particles</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Scirra" id="DragnDrop" version="1">Drag &amp; Drop</behavior>
+        <behavior author="Scirra" id="Sin" version="1">Sine</behavior>
+        <behavior author="lunarray" id="lunarray_LiteTween" version="1.700000048">LiteTween</behavior>
+    </used-behaviors>
+    <used-effects>
+        <effect author="Scirra" id="brightness">Brightness</effect>
+    </used-effects>
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>1280</width>
+        <height>720</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Downscaling">Medium quality</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Construct 2 splash</prop>
+        <prop name="Orientations">Any</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D asm.js</prop>
+        <prop name="Preload sounds">Yes</prop>
+        <prop name="Preview browser">NW.js</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-type name="Sprite" sid="392473440493006">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="503097550491888" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite2" sid="447319516968390">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="400329510038011">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="962115175053615" speed="5">
+                    <frame duration="1" hotspotX="0.500564" hotspotY="0.5" original-source="D:\ASSETGAME\Logo\LOGO SMK.png">
+                        <collision-poly>
+                            <point x="0.249154" y="0.248874" />
+                            <point x="0.499436" y="0.0788288" />
+                            <point x="0.7531" y="0.246622" />
+                            <point x="0.92221" y="0.5" />
+                            <point x="0.818489" y="0.818694" />
+                            <point x="0.499436" y="0.914414" />
+                            <point x="0.179256" y="0.820946" />
+                            <point x="0.0698985" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Audio" sid="158748865302698">
+            <plugin id="Audio" />
+        </object-type>
+        <object-type name="Sprite3" sid="172311806349461">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="199811430657066" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\ASSETGAME\Background\41524.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="MAINLOGO" sid="266216095115330">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="330002201002548">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+                <behavior-type name="Sine" sid="850405376775156">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="374148010926274" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\ASSETGAME\Element UI\MAIN-LOGO.png">
+                        <collision-poly>
+                            <point x="0.119295" y="0.188731" />
+                            <point x="0.5" y="0.00656455" />
+                            <point x="0.879668" y="0.190372" />
+                            <point x="0.99343" y="0.5" />
+                            <point x="0.882089" y="0.813457" />
+                            <point x="0.5" y="0.978118" />
+                            <point x="0.116528" y="0.815646" />
+                            <point x="0.000691563" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="btnmengenal" sid="190664443461044">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="717435137442067">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+                <behavior-type name="Sine" sid="856413566494415">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="638061983879996" speed="5">
+                    <frame duration="1" hotspotX="0.500246" hotspotY="0.500496" original-source="D:\ASSETGAME\Element UI\btn-mengenal.png">
+                        <collision-poly>
+                            <point x="0.0970922" y="0.195243" />
+                            <point x="0.499754" y="0.0733399" />
+                            <point x="0.898965" y="0.203171" />
+                            <point x="0.992607" y="0.499504" />
+                            <point x="0.883194" y="0.765114" />
+                            <point x="0.499754" y="0.921705" />
+                            <point x="0.141942" y="0.714569" />
+                            <point x="0.0754066" y="0.499504" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="btnmenyusun" sid="888633895768082">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="969796106531563">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+                <behavior-type name="Sine" sid="549517179804101">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="878243241325819" speed="5">
+                    <frame duration="1" hotspotX="0.500246" hotspotY="0.500496" original-source="D:\ASSETGAME\Element UI\btn-menyusun.png">
+                        <collision-poly>
+                            <point x="0.0970922" y="0.195243" />
+                            <point x="0.499754" y="0.0733399" />
+                            <point x="0.898965" y="0.203171" />
+                            <point x="0.992607" y="0.499504" />
+                            <point x="0.883194" y="0.765114" />
+                            <point x="0.499754" y="0.921705" />
+                            <point x="0.141942" y="0.714569" />
+                            <point x="0.0754066" y="0.499504" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="btnmewarnai" sid="509988642926779">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="894869805303507">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+                <behavior-type name="Sine" sid="285722891768178">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="256234365743258" speed="5">
+                    <frame duration="1" hotspotX="0.500246" hotspotY="0.5" original-source="D:\ASSETGAME\Element UI\btn-mewarnai.png">
+                        <collision-poly>
+                            <point x="0.0965993" y="0.194444" />
+                            <point x="0.499754" y="0.0724206" />
+                            <point x="0.899458" y="0.202381" />
+                            <point x="0.992607" y="0.5" />
+                            <point x="0.883194" y="0.764881" />
+                            <point x="0.499754" y="0.921627" />
+                            <point x="0.141942" y="0.714286" />
+                            <point x="0.0754066" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="btnquiz" sid="978833175356658">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="684163451968352">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+                <behavior-type name="Sine" sid="268109313568556">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="842984783577791" speed="5">
+                    <frame duration="1" hotspotX="0.500246" hotspotY="0.500496" original-source="D:\ASSETGAME\Element UI\btn-quiz.png">
+                        <collision-poly>
+                            <point x="0.0970922" y="0.195243" />
+                            <point x="0.499754" y="0.0733399" />
+                            <point x="0.898965" y="0.203171" />
+                            <point x="0.992607" y="0.499504" />
+                            <point x="0.883194" y="0.765114" />
+                            <point x="0.499754" y="0.921705" />
+                            <point x="0.141942" y="0.714569" />
+                            <point x="0.0754066" y="0.499504" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="btnmuteSound" sid="634478448812427">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="951539676145608">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+                <behavior-type name="Sine" sid="482637315054624">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="901493417863651" speed="0">
+                    <frame duration="1" hotspotX="0.500393" hotspotY="0.500374" original-source="D:\ASSETGAME\Element UI\btn-sound.png">
+                        <collision-poly>
+                            <point x="0.147915" y="0.140613" />
+                            <point x="0.499607" y="0.0433807" />
+                            <point x="0.833202" y="0.158564" />
+                            <point x="0.956727" y="0.499626" />
+                            <point x="0.833202" y="0.841436" />
+                            <point x="0.499607" y="0.910247" />
+                            <point x="0.151849" y="0.855647" />
+                            <point x="0.0535012" y="0.499626" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500374" original-source="D:\ASSETGAME\Element UI\btn-muteSound.png">
+                        <collision-poly>
+                            <point x="0.0811024" y="0.0770381" />
+                            <point x="0.5" y="0.0433807" />
+                            <point x="0.833858" y="0.157816" />
+                            <point x="0.95748" y="0.499626" />
+                            <point x="0.85748" y="0.864622" />
+                            <point x="0.5" y="0.910247" />
+                            <point x="0.151969" y="0.855647" />
+                            <point x="0.0535433" y="0.499626" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Element_Game_58Converted_" sid="662385776911684">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="671482002630501">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+                <behavior-type name="Sine" sid="414990701152692">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="230913537841124" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\ASSETGAME\Element UI\Element_Game_58-[Converted]_15.png">
+                        <collision-poly>
+                            <point x="0.142384" y="0.136076" />
+                            <point x="0.5" y="0.0443038" />
+                            <point x="0.834437" y="0.158228" />
+                            <point x="0.960265" y="0.5" />
+                            <point x="0.831126" y="0.838608" />
+                            <point x="0.5" y="0.924051" />
+                            <point x="0.142384" y="0.863924" />
+                            <point x="0.0430464" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Touch" sid="222051253221005">
+            <plugin id="Touch" />
+        </object-type>
+        <object-type name="profil" sid="685707982825547">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="179225525205002">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+                <behavior-type name="LiteTween2" sid="708772657623630">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="538891165580381" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\ASSETGAME\Element UI\converted_image_kelompok3.png">
+                        <collision-poly>
+                            <point x="0.120709" y="0.194175" />
+                            <point x="0.499811" y="0.0728155" />
+                            <point x="0.892871" y="0.17233" />
+                            <point x="0.924557" y="0.5" />
+                            <point x="0.832139" y="0.729976" />
+                            <point x="0.499811" y="0.921117" />
+                            <point x="0.129385" y="0.791869" />
+                            <point x="0.00716711" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="36278Converted_" sid="236735437461062">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="906486122931691">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+                <behavior-type name="LiteTween2" sid="383438751835263">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="497103733201040" speed="5">
+                    <frame duration="1" hotspotX="0.507246" hotspotY="0.507246" original-source="D:\ASSETGAME\Element UI\36278-[Converted]_15.png">
+                        <collision-poly>
+                            <point x="0.144928" y="0.144928" />
+                            <point x="0.492754" y="0.0144928" />
+                            <point x="0.84058" y="0.15942" />
+                            <point x="1" y="0.492754" />
+                            <point x="0.855072" y="0.855072" />
+                            <point x="0.492754" y="1" />
+                            <point x="0.130435" y="0.869565" />
+                            <point x="0" y="0.492754" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite4" sid="591181948055307">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="795359447370131" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\ASSETGAME\Background\5312967.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Element_Game_58Converted_2" sid="876715874355578">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="836911784921915">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+                <behavior-type name="Sine" sid="536865048326374">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="909888622146310" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\ASSETGAME\Element UI\Element_Game_58-[Converted]_13.png">
+                        <collision-poly>
+                            <point x="0.141892" y="0.13125" />
+                            <point x="0.5" y="0.04375" />
+                            <point x="0.837838" y="0.15" />
+                            <point x="0.966216" y="0.5" />
+                            <point x="0.837838" y="0.85" />
+                            <point x="0.5" y="0.9125" />
+                            <point x="0.179054" y="0.834375" />
+                            <point x="0.0337838" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Element_Game_58Converted_3" sid="195046435621804">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="917337241466931">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="967125066721138" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\ASSETGAME\Element UI\Element_Game_58-[Converted]_09.png">
+                        <collision-poly>
+                            <point x="0.125203" y="0.171111" />
+                            <point x="0.5" y="0.00666667" />
+                            <point x="0.873984" y="0.172222" />
+                            <point x="0.958537" y="0.5" />
+                            <point x="0.913821" y="0.882222" />
+                            <point x="0.5" y="0.977778" />
+                            <point x="0.0837398" y="0.885556" />
+                            <point x="0.0349593" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Element_Game_58Converted_4" sid="434512525882813">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="686913136301723">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="377340710436451" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\ASSETGAME\Element UI\Element_Game_58-[Converted]_20.png">
+                        <collision-poly>
+                            <point x="0.145695" y="0.138365" />
+                            <point x="0.5" y="0.0471698" />
+                            <point x="0.834437" y="0.157233" />
+                            <point x="0.960265" y="0.5" />
+                            <point x="0.834437" y="0.842767" />
+                            <point x="0.5" y="0.921384" />
+                            <point x="0.142384" y="0.86478" />
+                            <point x="0.0430464" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Element_Game_58Converted_5" sid="716210817005043">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="178702067983593">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="519466353797451" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\ASSETGAME\Element UI\Element_Game_58-[Converted]_19.png">
+                        <collision-poly>
+                            <point x="0.141892" y="0.130435" />
+                            <point x="0.5" y="0.0465838" />
+                            <point x="0.837838" y="0.149068" />
+                            <point x="0.966216" y="0.5" />
+                            <point x="0.837838" y="0.850932" />
+                            <point x="0.5" y="0.909938" />
+                            <point x="0.179054" y="0.835404" />
+                            <point x="0.0371622" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="pausebutton" sid="651509074291865">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="595467984671285">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="290542106069016" speed="0">
+                    <frame duration="1" hotspotX="0.500393" hotspotY="0.500374" original-source="D:\ASSETGAME\Element UI\play-button.png">
+                        <collision-poly>
+                            <point x="0.147915" y="0.140613" />
+                            <point x="0.499607" y="0.0433807" />
+                            <point x="0.833202" y="0.158564" />
+                            <point x="0.956727" y="0.499626" />
+                            <point x="0.833202" y="0.841436" />
+                            <point x="0.499607" y="0.910247" />
+                            <point x="0.151849" y="0.855647" />
+                            <point x="0.0535012" y="0.499626" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.500393" hotspotY="0.500374" original-source="D:\ASSETGAME\Element UI\pause-button.png">
+                        <collision-poly>
+                            <point x="0.147915" y="0.140613" />
+                            <point x="0.499607" y="0.0433807" />
+                            <point x="0.833202" y="0.158564" />
+                            <point x="0.956727" y="0.499626" />
+                            <point x="0.833202" y="0.841436" />
+                            <point x="0.499607" y="0.910247" />
+                            <point x="0.151849" y="0.855647" />
+                            <point x="0.0535012" y="0.499626" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Banteng" sid="305014567251843">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="907244556120281">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="7" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="479017640239388" speed="0">
+                    <frame duration="1" hotspotX="0.500768" hotspotY="0.5" original-source="D:\ASSETGAME\Gambar Hewan\Gajah-01.png">
+                        <collision-poly>
+                            <point x="0.0337942" y="0.0387324" />
+                            <point x="0.499232" y="0.00176056" />
+                            <point x="0.809524" y="0.21831" />
+                            <point x="0.984639" y="0.5" />
+                            <point x="0.918587" y="0.90669" />
+                            <point x="0.499232" y="0.90493" />
+                            <point x="0.0384025" y="0.955986" />
+                            <point x="0.127496" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.501018" hotspotY="0.501385" original-source="D:\ASSETGAME\Gambar Hewan\Gajah-01.png">
+                        <collision-poly>
+                            <point x="0.120163" y="0.163435" />
+                            <point x="0.498982" y="0.00277008" />
+                            <point x="0.841141" y="0.216066" />
+                            <point x="0.99389" y="0.498615" />
+                            <point x="0.928717" y="0.903047" />
+                            <point x="0.498982" y="0.67313" />
+                            <point x="0.158859" y="0.783934" />
+                            <point x="0.0794297" y="0.498615" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.500754" hotspotY="0.5" original-source="D:\ASSETGAME\Gambar Hewan\Koala.png">
+                        <collision-poly>
+                            <point x="0.126697" y="0.176471" />
+                            <point x="0.499246" y="0.363445" />
+                            <point x="0.962293" y="0.052521" />
+                            <point x="0.912519" y="0.5" />
+                            <point x="0.983409" y="0.976891" />
+                            <point x="0.499246" y="0.953781" />
+                            <point x="0.0784314" y="0.890756" />
+                            <point x="0.0377074" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.500935" hotspotY="0.5" original-source="D:\ASSETGAME\Gambar Hewan\Kuda.png">
+                        <collision-poly>
+                            <point x="0.140187" y="0.115031" />
+                            <point x="0.499065" y="0.412577" />
+                            <point x="0.497196" y="0.412577" />
+                            <point x="0.940187" y="0.5" />
+                            <point x="0.850467" y="0.877301" />
+                            <point x="0.499065" y="0.794479" />
+                            <point x="0.334579" y="0.72546" />
+                            <point x="0.250467" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500998" original-source="D:\ASSETGAME\Gambar Hewan\Macan Tutul.png">
+                        <collision-poly>
+                            <point x="0.0323834" y="0.0499002" />
+                            <point x="0.5" y="0.267465" />
+                            <point x="0.805699" y="0.299401" />
+                            <point x="0.918394" y="0.874251" />
+                            <point x="0.5" y="0.598802" />
+                            <point x="0.187824" y="0.710579" />
+                            <point x="0.168394" y="0.499002" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5008" original-source="D:\ASSETGAME\Gambar Hewan\Rusa.png">
+                        <collision-poly>
+                            <point x="0.037037" y="0.0256" />
+                            <point x="0.5" y="0.1504" />
+                            <point x="0.689815" y="0.2144" />
+                            <point x="0.962963" y="0.4992" />
+                            <point x="0.909722" y="0.9376" />
+                            <point x="0.5" y="0.7312" />
+                            <point x="0.439815" y="0.696" />
+                            <point x="0.472222" y="0.4992" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.501044" hotspotY="0.5" original-source="D:\ASSETGAME\Gambar Hewan\Zebra.png">
+                        <collision-poly>
+                            <point x="0.0146138" y="0.0108696" />
+                            <point x="0.498956" y="0.425466" />
+                            <point x="0.4238" y="0.428571" />
+                            <point x="0.901879" y="0.5" />
+                            <point x="0.85595" y="0.892857" />
+                            <point x="0.498956" y="0.729814" />
+                            <point x="0.22547" y="0.832298" />
+                            <point x="0.17119" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="nama_hewan" sid="640717585811178">
+            <plugin id="Text" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="874937736825013">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+        </object-type>
+        <object-type name="Gajah" sid="495705486967653">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="344642854411771">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="192159454992475" speed="5">
+                    <frame duration="1" hotspotX="0.501018" hotspotY="0.501385" original-source="D:\ASSETGAME\Gambar Hewan\Gajah-01.png">
+                        <collision-poly>
+                            <point x="0.120163" y="0.163435" />
+                            <point x="0.498982" y="0.00277008" />
+                            <point x="0.841141" y="0.216066" />
+                            <point x="0.99389" y="0.498615" />
+                            <point x="0.928717" y="0.903047" />
+                            <point x="0.498982" y="0.67313" />
+                            <point x="0.158859" y="0.783934" />
+                            <point x="0.0794297" y="0.498615" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Koala" sid="535514945582954">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="402466818267453" speed="5">
+                    <frame duration="1" hotspotX="0.500754" hotspotY="0.5" original-source="D:\ASSETGAME\Gambar Hewan\Koala.png">
+                        <collision-poly>
+                            <point x="0.126697" y="0.176471" />
+                            <point x="0.499246" y="0.363445" />
+                            <point x="0.962293" y="0.052521" />
+                            <point x="0.912519" y="0.5" />
+                            <point x="0.983409" y="0.976891" />
+                            <point x="0.499246" y="0.953781" />
+                            <point x="0.0784314" y="0.890756" />
+                            <point x="0.0377074" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="yvns_xtdx_" sid="906411785410126">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="904412375359660" speed="5">
+                    <frame duration="1" hotspotX="0.500079" hotspotY="0.5" original-source="D:\ASSETGAME\Background\yvns_xtdx_210511.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="36278Converted_2" sid="357897920771347">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="563210419791037" speed="5">
+                    <frame duration="1" hotspotX="0.502242" hotspotY="0.505747" original-source="D:\ASSETGAME\Element UI\36278-[Converted]_11.png">
+                        <collision-poly>
+                            <point x="0.0717489" y="0.183908" />
+                            <point x="0.497758" y="0.0804598" />
+                            <point x="0.959641" y="0.103448" />
+                            <point x="0.96861" y="0.91954" />
+                            <point x="0.497758" y="0.931035" />
+                            <point x="0.103139" y="0.735632" />
+                            <point x="0.0717489" y="0.494253" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Text" sid="177596741221559">
+            <plugin id="Text" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="752346032652242">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+        </object-type>
+        <object-type name="36278Converted_3" sid="976910437940693">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="387694851721174">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="318131882015061" speed="5">
+                    <frame duration="1" hotspotX="0.502242" hotspotY="0.5" original-source="D:\ASSETGAME\Element UI\36278-[Converted]_09.png">
+                        <collision-poly>
+                            <point x="0.0403587" y="0.0978261" />
+                            <point x="0.497758" y="0.0326087" />
+                            <point x="0.950673" y="0.119565" />
+                            <point x="0.914798" y="0.5" />
+                            <point x="0.959641" y="0.902174" />
+                            <point x="0.497758" y="0.956522" />
+                            <point x="0.044843" y="0.891304" />
+                            <point x="0.0313901" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Element_Game_58Converted_6" sid="305845317673374">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="870818030437600">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="866226938080799" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501182" original-source="D:\ASSETGAME\Element UI\Element_Game_58-[Converted]_03.png">
+                        <collision-poly>
+                            <point x="0.194323" y="0.210402" />
+                            <point x="0.5" y="0.0780142" />
+                            <point x="0.805677" y="0.210402" />
+                            <point x="0.927948" y="0.498818" />
+                            <point x="0.840611" y="0.827423" />
+                            <point x="0.5" y="0.962175" />
+                            <point x="0.157205" y="0.829787" />
+                            <point x="0.137555" y="0.498818" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Nilai" sid="608692812102708">
+            <plugin id="Text" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="699756592352129">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+        </object-type>
+        <object-type name="Particles" sid="755298738995964">
+            <plugin id="Particles" />
+            <texture />
+        </object-type>
+        <object-type name="36278Converted_4" sid="470850118558947">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="610337368267650" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\ASSETGAME\Element UI\36278-[Converted]_03.png">
+                        <collision-poly>
+                            <point x="0.117143" y="0.116477" />
+                            <point x="0.5" y="0.00284091" />
+                            <point x="0.891429" y="0.107955" />
+                            <point x="0.982857" y="0.5" />
+                            <point x="0.968571" y="0.96875" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0371429" y="0.963068" />
+                            <point x="0.0171429" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="36278Converted_5" sid="234824115706067">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="775094758353016" speed="5">
+                    <frame duration="1" hotspotX="0.502242" hotspotY="0.5" original-source="D:\ASSETGAME\Element UI\36278-[Converted]_09.png">
+                        <collision-poly>
+                            <point x="0.0403587" y="0.0978261" />
+                            <point x="0.497758" y="0.0326087" />
+                            <point x="0.950673" y="0.119565" />
+                            <point x="0.914798" y="0.5" />
+                            <point x="0.959641" y="0.902174" />
+                            <point x="0.497758" y="0.956522" />
+                            <point x="0.044843" y="0.891304" />
+                            <point x="0.0313901" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="SlotHuruf" sid="770860274117230">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="indexframe" sid="138981300067477" type="number" />
+                <instance-variable name="StatusIsi" sid="747180502929816" type="string" />
+            </instance-variables>
+            <effects>
+                <effect-type name="Brightness">
+                    <effect id="brightness" />
+                </effect-type>
+            </effects>
+            <animation-folder>
+                <animation framecount="27" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="898427831309900" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\ASSETGAME\Element UI\0.png">
+                        <collision-poly>
+                            <point x="0.0403226" y="0.0403226" />
+                            <point x="0.5" y="0" />
+                            <point x="0.959677" y="0.0403226" />
+                            <point x="0.991935" y="0.5" />
+                            <point x="0.959677" y="0.959677" />
+                            <point x="0.5" y="0.991935" />
+                            <point x="0.0403226" y="0.959677" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\ASSETGAME\Element UI\1.png">
+                        <collision-poly>
+                            <point x="0.0403226" y="0.0403226" />
+                            <point x="0.5" y="0.00806452" />
+                            <point x="0.959677" y="0.0403226" />
+                            <point x="0.991935" y="0.5" />
+                            <point x="0.959677" y="0.959677" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0403226" y="0.959677" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\ASSETGAME\Element UI\10.png">
+                        <collision-poly>
+                            <point x="0.0403226" y="0.0403226" />
+                            <point x="0.5" y="0" />
+                            <point x="0.959677" y="0.0403226" />
+                            <point x="0.991935" y="0.5" />
+                            <point x="0.959677" y="0.959677" />
+                            <point x="0.5" y="0.991935" />
+                            <point x="0.0403226" y="0.959677" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\ASSETGAME\Element UI\11.png">
+                        <collision-poly>
+                            <point x="0.0403226" y="0.0403226" />
+                            <point x="0.5" y="0" />
+                            <point x="0.959677" y="0.0403226" />
+                            <point x="0.991935" y="0.5" />
+                            <point x="0.959677" y="0.959677" />
+                            <point x="0.5" y="0.991935" />
+                            <point x="0.0403226" y="0.959677" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\ASSETGAME\Element UI\12.png">
+                        <collision-poly>
+                            <point x="0.0403226" y="0.0403226" />
+                            <point x="0.5" y="0" />
+                            <point x="0.959677" y="0.0403226" />
+                            <point x="1" y="0.5" />
+                            <point x="0.959677" y="0.959677" />
+                            <point x="0.5" y="0.991935" />
+                            <point x="0.0403226" y="0.959677" />
+                            <point x="0.00806452" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\ASSETGAME\Element UI\13.png">
+                        <collision-poly>
+                            <point x="0.0403226" y="0.0403226" />
+                            <point x="0.5" y="0" />
+                            <point x="0.959677" y="0.0403226" />
+                            <point x="0.991935" y="0.5" />
+                            <point x="0.959677" y="0.959677" />
+                            <point x="0.5" y="0.991935" />
+                            <point x="0.0403226" y="0.959677" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\ASSETGAME\Element UI\14.png">
+                        <collision-poly>
+                            <point x="0.0403226" y="0.0403226" />
+                            <point x="0.5" y="0" />
+                            <point x="0.959677" y="0.0403226" />
+                            <point x="0.991935" y="0.5" />
+                            <point x="0.959677" y="0.959677" />
+                            <point x="0.5" y="0.991935" />
+                            <point x="0.0403226" y="0.959677" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\ASSETGAME\Element UI\15.png">
+                        <collision-poly>
+                            <point x="0.0403226" y="0.0403226" />
+                            <point x="0.5" y="0" />
+                            <point x="0.959677" y="0.0403226" />
+                            <point x="1" y="0.5" />
+                            <point x="0.959677" y="0.959677" />
+                            <point x="0.5" y="0.991935" />
+                            <point x="0.0403226" y="0.959677" />
+                            <point x="0.00806452" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\ASSETGAME\Element UI\16.png">
+                        <collision-poly>
+                            <point x="0.0403226" y="0.0403226" />
+                            <point x="0.5" y="0" />
+                            <point x="0.959677" y="0.0403226" />
+                            <point x="0.991935" y="0.5" />
+                            <point x="0.959677" y="0.959677" />
+                            <point x="0.5" y="0.991935" />
+                            <point x="0.0403226" y="0.959677" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\ASSETGAME\Element UI\17.png">
+                        <collision-poly>
+                            <point x="0.0403226" y="0.0403226" />
+                            <point x="0.5" y="0" />
+                            <point x="0.959677" y="0.0403226" />
+                            <point x="0.991935" y="0.5" />
+                            <point x="0.959677" y="0.959677" />
+                            <point x="0.5" y="0.991935" />
+                            <point x="0.0403226" y="0.959677" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\ASSETGAME\Element UI\18.png">
+                        <collision-poly>
+                            <point x="0.0403226" y="0.0403226" />
+                            <point x="0.5" y="0" />
+                            <point x="0.959677" y="0.0403226" />
+                            <point x="1" y="0.5" />
+                            <point x="0.959677" y="0.959677" />
+                            <point x="0.5" y="0.991935" />
+                            <point x="0.0403226" y="0.959677" />
+                            <point x="0.00806452" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\ASSETGAME\Element UI\19.png">
+                        <collision-poly>
+                            <point x="0.0403226" y="0.0403226" />
+                            <point x="0.5" y="0" />
+                            <point x="0.959677" y="0.0403226" />
+                            <point x="1" y="0.5" />
+                            <point x="0.959677" y="0.959677" />
+                            <point x="0.5" y="0.991935" />
+                            <point x="0.0403226" y="0.959677" />
+                            <point x="0.00806452" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\ASSETGAME\Element UI\2.png">
+                        <collision-poly>
+                            <point x="0.0403226" y="0.0403226" />
+                            <point x="0.5" y="0.00806452" />
+                            <point x="0.959677" y="0.0403226" />
+                            <point x="0.991935" y="0.5" />
+                            <point x="0.959677" y="0.959677" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0403226" y="0.959677" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\ASSETGAME\Element UI\20.png">
+                        <collision-poly>
+                            <point x="0.0403226" y="0.0403226" />
+                            <point x="0.5" y="0" />
+                            <point x="0.959677" y="0.0403226" />
+                            <point x="0.991935" y="0.5" />
+                            <point x="0.959677" y="0.959677" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0403226" y="0.959677" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\ASSETGAME\Element UI\21.png">
+                        <collision-poly>
+                            <point x="0.0403226" y="0.0403226" />
+                            <point x="0.5" y="0" />
+                            <point x="0.959677" y="0.0403226" />
+                            <point x="0.991935" y="0.5" />
+                            <point x="0.959677" y="0.959677" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0403226" y="0.959677" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\ASSETGAME\Element UI\22.png">
+                        <collision-poly>
+                            <point x="0.0403226" y="0.0403226" />
+                            <point x="0.5" y="0" />
+                            <point x="0.959677" y="0.0403226" />
+                            <point x="1" y="0.5" />
+                            <point x="0.959677" y="0.959677" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0403226" y="0.959677" />
+                            <point x="0.00806452" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\ASSETGAME\Element UI\23.png">
+                        <collision-poly>
+                            <point x="0.0403226" y="0.0403226" />
+                            <point x="0.5" y="0" />
+                            <point x="0.959677" y="0.0403226" />
+                            <point x="0.991935" y="0.5" />
+                            <point x="0.959677" y="0.959677" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0403226" y="0.959677" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\ASSETGAME\Element UI\24.png">
+                        <collision-poly>
+                            <point x="0.0403226" y="0.0403226" />
+                            <point x="0.5" y="0" />
+                            <point x="0.959677" y="0.0403226" />
+                            <point x="0.991935" y="0.5" />
+                            <point x="0.959677" y="0.959677" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0403226" y="0.959677" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\ASSETGAME\Element UI\25.png">
+                        <collision-poly>
+                            <point x="0.0403226" y="0.0403226" />
+                            <point x="0.5" y="0" />
+                            <point x="0.959677" y="0.0403226" />
+                            <point x="1" y="0.5" />
+                            <point x="0.959677" y="0.959677" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0403226" y="0.959677" />
+                            <point x="0.00806452" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\ASSETGAME\Element UI\26.png">
+                        <collision-poly>
+                            <point x="0.0403226" y="0.0403226" />
+                            <point x="0.5" y="0" />
+                            <point x="0.959677" y="0.0403226" />
+                            <point x="0.991935" y="0.5" />
+                            <point x="0.959677" y="0.959677" />
+                            <point x="0.5" y="0.991935" />
+                            <point x="0.0403226" y="0.959677" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\ASSETGAME\Element UI\3.png">
+                        <collision-poly>
+                            <point x="0.0403226" y="0.0403226" />
+                            <point x="0.5" y="0.00806452" />
+                            <point x="0.959677" y="0.0403226" />
+                            <point x="1" y="0.5" />
+                            <point x="0.959677" y="0.959677" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0403226" y="0.959677" />
+                            <point x="0.00806452" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\ASSETGAME\Element UI\4.png">
+                        <collision-poly>
+                            <point x="0.0403226" y="0.0403226" />
+                            <point x="0.5" y="0.00806452" />
+                            <point x="0.959677" y="0.0403226" />
+                            <point x="0.991935" y="0.5" />
+                            <point x="0.959677" y="0.959677" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0403226" y="0.959677" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\ASSETGAME\Element UI\5.png">
+                        <collision-poly>
+                            <point x="0.0403226" y="0.0403226" />
+                            <point x="0.5" y="0.00806452" />
+                            <point x="0.959677" y="0.0403226" />
+                            <point x="0.991935" y="0.5" />
+                            <point x="0.959677" y="0.959677" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0403226" y="0.959677" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\ASSETGAME\Element UI\6.png">
+                        <collision-poly>
+                            <point x="0.0403226" y="0.0403226" />
+                            <point x="0.5" y="0.00806452" />
+                            <point x="0.959677" y="0.0403226" />
+                            <point x="1" y="0.5" />
+                            <point x="0.959677" y="0.959677" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0403226" y="0.959677" />
+                            <point x="0.00806452" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\ASSETGAME\Element UI\7.png">
+                        <collision-poly>
+                            <point x="0.0403226" y="0.0403226" />
+                            <point x="0.5" y="0" />
+                            <point x="0.959677" y="0.0403226" />
+                            <point x="0.991935" y="0.5" />
+                            <point x="0.959677" y="0.959677" />
+                            <point x="0.5" y="0.991935" />
+                            <point x="0.0403226" y="0.959677" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\ASSETGAME\Element UI\8.png">
+                        <collision-poly>
+                            <point x="0.0403226" y="0.0403226" />
+                            <point x="0.5" y="0" />
+                            <point x="0.959677" y="0.0403226" />
+                            <point x="0.991935" y="0.5" />
+                            <point x="0.959677" y="0.959677" />
+                            <point x="0.5" y="0.991935" />
+                            <point x="0.0403226" y="0.959677" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\ASSETGAME\Element UI\9.png">
+                        <collision-poly>
+                            <point x="0.0403226" y="0.0403226" />
+                            <point x="0.5" y="0" />
+                            <point x="0.959677" y="0.0403226" />
+                            <point x="1" y="0.5" />
+                            <point x="0.959677" y="0.959677" />
+                            <point x="0.5" y="0.991935" />
+                            <point x="0.0403226" y="0.959677" />
+                            <point x="0.00806452" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="HurufAcak" sid="392106718930828">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="XposisiAwalHurufAcak" sid="309912531811959" type="number" />
+                <instance-variable name="YposisiAwalHurufAcak" sid="150622601140181" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="DragDrop" sid="796887042020462">
+                    <behavior id="DragnDrop" />
+                </behavior-type>
+                <behavior-type name="LiteTween" sid="944456533221576">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="27" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="450152469188225" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\ASSETGAME\Element UI\0.png">
+                        <collision-poly>
+                            <point x="0.0403226" y="0.0403226" />
+                            <point x="0.5" y="0" />
+                            <point x="0.959677" y="0.0403226" />
+                            <point x="0.991935" y="0.5" />
+                            <point x="0.959677" y="0.959677" />
+                            <point x="0.5" y="0.991935" />
+                            <point x="0.0403226" y="0.959677" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\ASSETGAME\Element UI\1.png">
+                        <collision-poly>
+                            <point x="0.0403226" y="0.0403226" />
+                            <point x="0.5" y="0.00806452" />
+                            <point x="0.959677" y="0.0403226" />
+                            <point x="0.991935" y="0.5" />
+                            <point x="0.959677" y="0.959677" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0403226" y="0.959677" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\ASSETGAME\Element UI\10.png">
+                        <collision-poly>
+                            <point x="0.0403226" y="0.0403226" />
+                            <point x="0.5" y="0" />
+                            <point x="0.959677" y="0.0403226" />
+                            <point x="0.991935" y="0.5" />
+                            <point x="0.959677" y="0.959677" />
+                            <point x="0.5" y="0.991935" />
+                            <point x="0.0403226" y="0.959677" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\ASSETGAME\Element UI\11.png">
+                        <collision-poly>
+                            <point x="0.0403226" y="0.0403226" />
+                            <point x="0.5" y="0" />
+                            <point x="0.959677" y="0.0403226" />
+                            <point x="0.991935" y="0.5" />
+                            <point x="0.959677" y="0.959677" />
+                            <point x="0.5" y="0.991935" />
+                            <point x="0.0403226" y="0.959677" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\ASSETGAME\Element UI\12.png">
+                        <collision-poly>
+                            <point x="0.0403226" y="0.0403226" />
+                            <point x="0.5" y="0" />
+                            <point x="0.959677" y="0.0403226" />
+                            <point x="1" y="0.5" />
+                            <point x="0.959677" y="0.959677" />
+                            <point x="0.5" y="0.991935" />
+                            <point x="0.0403226" y="0.959677" />
+                            <point x="0.00806452" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\ASSETGAME\Element UI\13.png">
+                        <collision-poly>
+                            <point x="0.0403226" y="0.0403226" />
+                            <point x="0.5" y="0" />
+                            <point x="0.959677" y="0.0403226" />
+                            <point x="0.991935" y="0.5" />
+                            <point x="0.959677" y="0.959677" />
+                            <point x="0.5" y="0.991935" />
+                            <point x="0.0403226" y="0.959677" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\ASSETGAME\Element UI\14.png">
+                        <collision-poly>
+                            <point x="0.0403226" y="0.0403226" />
+                            <point x="0.5" y="0" />
+                            <point x="0.959677" y="0.0403226" />
+                            <point x="0.991935" y="0.5" />
+                            <point x="0.959677" y="0.959677" />
+                            <point x="0.5" y="0.991935" />
+                            <point x="0.0403226" y="0.959677" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\ASSETGAME\Element UI\15.png">
+                        <collision-poly>
+                            <point x="0.0403226" y="0.0403226" />
+                            <point x="0.5" y="0" />
+                            <point x="0.959677" y="0.0403226" />
+                            <point x="1" y="0.5" />
+                            <point x="0.959677" y="0.959677" />
+                            <point x="0.5" y="0.991935" />
+                            <point x="0.0403226" y="0.959677" />
+                            <point x="0.00806452" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\ASSETGAME\Element UI\16.png">
+                        <collision-poly>
+                            <point x="0.0403226" y="0.0403226" />
+                            <point x="0.5" y="0" />
+                            <point x="0.959677" y="0.0403226" />
+                            <point x="0.991935" y="0.5" />
+                            <point x="0.959677" y="0.959677" />
+                            <point x="0.5" y="0.991935" />
+                            <point x="0.0403226" y="0.959677" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\ASSETGAME\Element UI\17.png">
+                        <collision-poly>
+                            <point x="0.0403226" y="0.0403226" />
+                            <point x="0.5" y="0" />
+                            <point x="0.959677" y="0.0403226" />
+                            <point x="0.991935" y="0.5" />
+                            <point x="0.959677" y="0.959677" />
+                            <point x="0.5" y="0.991935" />
+                            <point x="0.0403226" y="0.959677" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\ASSETGAME\Element UI\18.png">
+                        <collision-poly>
+                            <point x="0.0403226" y="0.0403226" />
+                            <point x="0.5" y="0" />
+                            <point x="0.959677" y="0.0403226" />
+                            <point x="1" y="0.5" />
+                            <point x="0.959677" y="0.959677" />
+                            <point x="0.5" y="0.991935" />
+                            <point x="0.0403226" y="0.959677" />
+                            <point x="0.00806452" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\ASSETGAME\Element UI\19.png">
+                        <collision-poly>
+                            <point x="0.0403226" y="0.0403226" />
+                            <point x="0.5" y="0" />
+                            <point x="0.959677" y="0.0403226" />
+                            <point x="1" y="0.5" />
+                            <point x="0.959677" y="0.959677" />
+                            <point x="0.5" y="0.991935" />
+                            <point x="0.0403226" y="0.959677" />
+                            <point x="0.00806452" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\ASSETGAME\Element UI\2.png">
+                        <collision-poly>
+                            <point x="0.0403226" y="0.0403226" />
+                            <point x="0.5" y="0.00806452" />
+                            <point x="0.959677" y="0.0403226" />
+                            <point x="0.991935" y="0.5" />
+                            <point x="0.959677" y="0.959677" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0403226" y="0.959677" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\ASSETGAME\Element UI\20.png">
+                        <collision-poly>
+                            <point x="0.0403226" y="0.0403226" />
+                            <point x="0.5" y="0" />
+                            <point x="0.959677" y="0.0403226" />
+                            <point x="0.991935" y="0.5" />
+                            <point x="0.959677" y="0.959677" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0403226" y="0.959677" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\ASSETGAME\Element UI\21.png">
+                        <collision-poly>
+                            <point x="0.0403226" y="0.0403226" />
+                            <point x="0.5" y="0" />
+                            <point x="0.959677" y="0.0403226" />
+                            <point x="0.991935" y="0.5" />
+                            <point x="0.959677" y="0.959677" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0403226" y="0.959677" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\ASSETGAME\Element UI\22.png">
+                        <collision-poly>
+                            <point x="0.0403226" y="0.0403226" />
+                            <point x="0.5" y="0" />
+                            <point x="0.959677" y="0.0403226" />
+                            <point x="1" y="0.5" />
+                            <point x="0.959677" y="0.959677" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0403226" y="0.959677" />
+                            <point x="0.00806452" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\ASSETGAME\Element UI\23.png">
+                        <collision-poly>
+                            <point x="0.0403226" y="0.0403226" />
+                            <point x="0.5" y="0" />
+                            <point x="0.959677" y="0.0403226" />
+                            <point x="0.991935" y="0.5" />
+                            <point x="0.959677" y="0.959677" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0403226" y="0.959677" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\ASSETGAME\Element UI\24.png">
+                        <collision-poly>
+                            <point x="0.0403226" y="0.0403226" />
+                            <point x="0.5" y="0" />
+                            <point x="0.959677" y="0.0403226" />
+                            <point x="0.991935" y="0.5" />
+                            <point x="0.959677" y="0.959677" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0403226" y="0.959677" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\ASSETGAME\Element UI\25.png">
+                        <collision-poly>
+                            <point x="0.0403226" y="0.0403226" />
+                            <point x="0.5" y="0" />
+                            <point x="0.959677" y="0.0403226" />
+                            <point x="1" y="0.5" />
+                            <point x="0.959677" y="0.959677" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0403226" y="0.959677" />
+                            <point x="0.00806452" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\ASSETGAME\Element UI\26.png">
+                        <collision-poly>
+                            <point x="0.0403226" y="0.0403226" />
+                            <point x="0.5" y="0" />
+                            <point x="0.959677" y="0.0403226" />
+                            <point x="0.991935" y="0.5" />
+                            <point x="0.959677" y="0.959677" />
+                            <point x="0.5" y="0.991935" />
+                            <point x="0.0403226" y="0.959677" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\ASSETGAME\Element UI\3.png">
+                        <collision-poly>
+                            <point x="0.0403226" y="0.0403226" />
+                            <point x="0.5" y="0.00806452" />
+                            <point x="0.959677" y="0.0403226" />
+                            <point x="1" y="0.5" />
+                            <point x="0.959677" y="0.959677" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0403226" y="0.959677" />
+                            <point x="0.00806452" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\ASSETGAME\Element UI\4.png">
+                        <collision-poly>
+                            <point x="0.0403226" y="0.0403226" />
+                            <point x="0.5" y="0.00806452" />
+                            <point x="0.959677" y="0.0403226" />
+                            <point x="0.991935" y="0.5" />
+                            <point x="0.959677" y="0.959677" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0403226" y="0.959677" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\ASSETGAME\Element UI\5.png">
+                        <collision-poly>
+                            <point x="0.0403226" y="0.0403226" />
+                            <point x="0.5" y="0.00806452" />
+                            <point x="0.959677" y="0.0403226" />
+                            <point x="0.991935" y="0.5" />
+                            <point x="0.959677" y="0.959677" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0403226" y="0.959677" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\ASSETGAME\Element UI\6.png">
+                        <collision-poly>
+                            <point x="0.0403226" y="0.0403226" />
+                            <point x="0.5" y="0.00806452" />
+                            <point x="0.959677" y="0.0403226" />
+                            <point x="1" y="0.5" />
+                            <point x="0.959677" y="0.959677" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0403226" y="0.959677" />
+                            <point x="0.00806452" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\ASSETGAME\Element UI\7.png">
+                        <collision-poly>
+                            <point x="0.0403226" y="0.0403226" />
+                            <point x="0.5" y="0" />
+                            <point x="0.959677" y="0.0403226" />
+                            <point x="0.991935" y="0.5" />
+                            <point x="0.959677" y="0.959677" />
+                            <point x="0.5" y="0.991935" />
+                            <point x="0.0403226" y="0.959677" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\ASSETGAME\Element UI\8.png">
+                        <collision-poly>
+                            <point x="0.0403226" y="0.0403226" />
+                            <point x="0.5" y="0" />
+                            <point x="0.959677" y="0.0403226" />
+                            <point x="0.991935" y="0.5" />
+                            <point x="0.959677" y="0.959677" />
+                            <point x="0.5" y="0.991935" />
+                            <point x="0.0403226" y="0.959677" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\ASSETGAME\Element UI\9.png">
+                        <collision-poly>
+                            <point x="0.0403226" y="0.0403226" />
+                            <point x="0.5" y="0" />
+                            <point x="0.959677" y="0.0403226" />
+                            <point x="1" y="0.5" />
+                            <point x="0.959677" y="0.959677" />
+                            <point x="0.5" y="0.991935" />
+                            <point x="0.0403226" y="0.959677" />
+                            <point x="0.00806452" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Text2" sid="885602702019133">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Element_Game_58Converted_7" sid="649948570682784">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="328411961787124">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="169069118246532" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501099" original-source="D:\ASSETGAME\Element UI\Element_Game_58-[Converted]_03 (2).png">
+                        <collision-poly>
+                            <point x="0.223618" y="0.195604" />
+                            <point x="0.5" y="0.00659341" />
+                            <point x="0.771357" y="0.2" />
+                            <point x="0.927136" y="0.498901" />
+                            <point x="0.798995" y="0.824176" />
+                            <point x="0.5" y="0.96044" />
+                            <point x="0.188442" y="0.835165" />
+                            <point x="0.0603015" y="0.498901" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+    </object-folder>
+    <families />
+    <layout-folder>
+        <layout>Opening1.xml</layout>
+        <layout>Home.xml</layout>
+        <layout>Banteng.xml</layout>
+        <layout>Gajah.xml</layout>
+        <layout>Koala.xml</layout>
+        <layout>Quiz1.xml</layout>
+        <layout>Quiz2.xml</layout>
+        <layout>Quiz3.xml</layout>
+        <layout>MenyusunGajah.xml</layout>
+        <layout>MenyusunKoala.xml</layout>
+        <layout>MenyusunBanteng.xml</layout>
+        <layout>Mewarnai.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>EventOpening.xml</event-sheet>
+        <event-sheet>EventHome.xml</event-sheet>
+        <event-sheet>EventBanteng.xml</event-sheet>
+        <event-sheet>EventGajah.xml</event-sheet>
+        <event-sheet>EventKoala.xml</event-sheet>
+        <event-sheet>EventQuiz1.xml</event-sheet>
+        <event-sheet>EventQuiz2.xml</event-sheet>
+        <event-sheet>EventQuiz3.xml</event-sheet>
+        <event-sheet>EventMenyusunGajah.xml</event-sheet>
+        <event-sheet>EvenMenyusunBanteng.xml</event-sheet>
+        <event-sheet>EventMenyusunKoala.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="Audio" uid="2">
+            <properties>
+                <timescale-audio>Off</timescale-audio>
+                <saveload>All</saveload>
+                <play-in-background>No</play-in-background>
+                <positioned-audio></positioned-audio>
+                <panning-model>HRTF</panning-model>
+                <distance-model>Inverse</distance-model>
+                <listener-z-height>600</listener-z-height>
+                <reference-distance>600</reference-distance>
+                <maximum-distance>10000</maximum-distance>
+                <roll-off-factor>1</roll-off-factor>
+            </properties>
+        </global-instance>
+        <global-instance type="Touch" uid="11">
+            <properties>
+                <use-mouse-input>Yes</use-mouse-input>
+            </properties>
+        </global-instance>
+    </global-instances>
+    <sounds-folder />
+    <music-folder>
+        <file name="mixkit-cool-interface-click-tone-2568.ogg" />
+        <file name="mixkit-kidding-around-9.ogg" />
+        <file name="dub_banteng.ogg" />
+        <file name="dub_gajah.ogg" />
+        <file name="dub_koala (online-audio-converter.com).ogg" />
+        <file name="false.ogg" />
+        <file name="win.ogg" />
+        <file name="correct.ogg" />
+    </music-folder>
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+    </files-folder>
+</c2project>

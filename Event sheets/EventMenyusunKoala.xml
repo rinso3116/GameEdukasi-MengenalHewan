@@ -1,0 +1,295 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>EventMenyusunKoala</name>
+    <events>
+        <variable constant="0" name="JumlahTerisi2" sid="706122447366368" static="0" type="number">0</variable>
+        <event-block sid="163523865445246">
+            <conditions>
+                <condition id="17" name="On tap object" sid="294822422506509" type="Touch">
+                    <param id="0" name="Object">btnmuteSound</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="304659943902905">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="548385059605388" type="System">
+                            <param id="0" name="Variable">statusSound</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;play&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="22" name="Set paused" sid="271792843356547" type="Audio">
+                            <param id="0" name="Tag">&quot;main_audio&quot;</param>
+                            <param id="1" name="State">0</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="802382302062734" type="btnmuteSound">
+                            <param id="0" name="Frame number">1</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="321444014673906" type="System">
+                            <param id="0" name="Variable">statusSound</param>
+                            <param id="1" name="Value">&quot;stop&quot;</param>
+                        </action>
+                        <action id="0" name="Play" sid="482883847302696" type="Audio">
+                            <param id="0" name="Audio file">mixkit-cool-interface-click-tone-2568</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="766789152808401">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="819919513687625" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="22" name="Set paused" sid="844445324374231" type="Audio">
+                            <param id="0" name="Tag">&quot;main_audio&quot;</param>
+                            <param id="1" name="State">1</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="430981892972397" type="btnmuteSound">
+                            <param id="0" name="Frame number">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="833502967573042" type="System">
+                            <param id="0" name="Variable">statusSound</param>
+                            <param id="1" name="Value">&quot;play&quot;</param>
+                        </action>
+                        <action id="0" name="Play" sid="430342645886102" type="Audio">
+                            <param id="0" name="Audio file">mixkit-cool-interface-click-tone-2568</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="549804940318454">
+            <conditions>
+                <condition id="17" name="On tap object" sid="823486946468902" type="Touch">
+                    <param id="0" name="Object">Element_Game_58Converted_2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="364873227445491" type="Audio">
+                    <param id="0" name="Audio file">mixkit-cool-interface-click-tone-2568</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="33" name="Stop all" sid="413343826160727" type="Audio" />
+                <action id="0" name="Play" sid="348161205302308" type="Audio">
+                    <param id="0" name="Audio file">mixkit-kidding-around-9</param>
+                    <param id="2" name="Loop">1</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;main_audio&quot;</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="331001069126654" type="System">
+                    <param id="0" name="Layout">Home</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="407590952979353">
+            <conditions>
+                <condition behavior="DragDrop" id="1" name="On drag start" sid="587791268380730" type="HurufAcak" />
+            </conditions>
+            <actions>
+                <action id="-24" name="Move to top" sid="957030028935950" type="HurufAcak" />
+            </actions>
+        </event-block>
+        <event-block sid="486986219311639">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="637870961167910" type="System" />
+            </conditions>
+            <actions>
+                <action id="-10" name="Set value" sid="710058945852415" type="HurufAcak">
+                    <param id="0" name="Instance variable">XposisiAwalHurufAcak</param>
+                    <param id="1" name="Value">Self.X</param>
+                </action>
+                <action id="-10" name="Set value" sid="956531206918424" type="HurufAcak">
+                    <param id="0" name="Instance variable">YposisiAwalHurufAcak</param>
+                    <param id="1" name="Value">Self.Y</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="802634338642719">
+            <conditions>
+                <condition behavior="DragDrop" id="2" name="On drop" sid="749276086632636" type="HurufAcak" />
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="468623074878729">
+                    <conditions>
+                        <condition id="1" name="Is overlapping another object" sid="351031823953125" type="HurufAcak">
+                            <param id="0" name="Object">SlotHuruf</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="912742761400002">
+                            <conditions>
+                                <condition id="-7" name="Compare instance variable" sid="958909104538444" type="SlotHuruf">
+                                    <param id="0" name="Instance variable">StatusIsi</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">&quot;Kosong&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="601970827967873">
+                                    <conditions>
+                                        <condition id="-7" name="Compare instance variable" sid="256429886656949" type="SlotHuruf">
+                                            <param id="0" name="Instance variable">indexframe</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">HurufAcak.AnimationFrame</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="LiteTween" id="3" name="Set target" sid="821709997280680" type="HurufAcak">
+                                            <param id="0" name="Target is">0</param>
+                                            <param id="1" name="Relativity">0</param>
+                                            <param id="2" name="Value">SlotHuruf.X</param>
+                                        </action>
+                                        <action behavior="LiteTween" id="3" name="Set target" sid="689778786685362" type="HurufAcak">
+                                            <param id="0" name="Target is">1</param>
+                                            <param id="1" name="Relativity">0</param>
+                                            <param id="2" name="Value">SlotHuruf.Y</param>
+                                        </action>
+                                        <action behavior="LiteTween" id="10" name="Start" sid="153182938535808" type="HurufAcak">
+                                            <param id="0" name="Start Mode">0</param>
+                                            <param id="1" name="Force use current">0</param>
+                                        </action>
+                                        <action id="-10" name="Set value" sid="753809469902783" type="SlotHuruf">
+                                            <param id="0" name="Instance variable">StatusIsi</param>
+                                            <param id="1" name="Value">&quot;Terisi&quot;</param>
+                                        </action>
+                                        <action behavior="DragDrop" id="0" name="Set enabled" sid="847862777717286" type="HurufAcak">
+                                            <param id="0" name="State">0</param>
+                                        </action>
+                                        <action id="-10" name="Add to" sid="678997102604247" type="System">
+                                            <param id="0" name="Variable">JumlahTerisi1</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                        <action id="0" name="Play" sid="847720324987163" type="Audio">
+                                            <param id="0" name="Audio file">correct</param>
+                                            <param id="2" name="Loop">0</param>
+                                            <param id="3" name="Volume">-10</param>
+                                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                                        </action>
+                                    </actions>
+                                    <sub-events>
+                                        <event-block sid="320541786387627">
+                                            <conditions>
+                                                <condition id="-14" name="Compare variable" sid="294222328409756" type="System">
+                                                    <param id="0" name="Variable">JumlahTerisi1</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">5</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="-24" name="Move to top" sid="141709184672583" type="Element_Game_58Converted_7" />
+                                                <action behavior="LiteTween" id="10" name="Start" sid="106621911200047" type="Element_Game_58Converted_7">
+                                                    <param id="0" name="Start Mode">0</param>
+                                                    <param id="1" name="Force use current">0</param>
+                                                </action>
+                                                <action id="0" name="Play" sid="153435199882501" type="Audio">
+                                                    <param id="0" name="Audio file">win</param>
+                                                    <param id="2" name="Loop">0</param>
+                                                    <param id="3" name="Volume">0</param>
+                                                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                    </sub-events>
+                                </event-block>
+                                <event-block sid="657521489219638">
+                                    <conditions>
+                                        <condition id="-22" name="Else" sid="894937775371596" type="System" />
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="LiteTween" id="3" name="Set target" sid="904153931262376" type="HurufAcak">
+                                            <param id="0" name="Target is">0</param>
+                                            <param id="1" name="Relativity">0</param>
+                                            <param id="2" name="Value">Self.XposisiAwalHurufAcak</param>
+                                        </action>
+                                        <action behavior="LiteTween" id="3" name="Set target" sid="526551246767456" type="HurufAcak">
+                                            <param id="0" name="Target is">1</param>
+                                            <param id="1" name="Relativity">0</param>
+                                            <param id="2" name="Value">Self.YposisiAwalHurufAcak</param>
+                                        </action>
+                                        <action behavior="LiteTween" id="10" name="Start" sid="904794471851443" type="HurufAcak">
+                                            <param id="0" name="Start Mode">0</param>
+                                            <param id="1" name="Force use current">0</param>
+                                        </action>
+                                        <action id="0" name="Play" sid="484847462681762" type="Audio">
+                                            <param id="0" name="Audio file">false</param>
+                                            <param id="2" name="Loop">0</param>
+                                            <param id="3" name="Volume">0</param>
+                                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="653179181770287">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="690371085422315" type="System" />
+                            </conditions>
+                            <actions>
+                                <action behavior="LiteTween" id="3" name="Set target" sid="966665196328945" type="HurufAcak">
+                                    <param id="0" name="Target is">0</param>
+                                    <param id="1" name="Relativity">0</param>
+                                    <param id="2" name="Value">Self.XposisiAwalHurufAcak</param>
+                                </action>
+                                <action behavior="LiteTween" id="3" name="Set target" sid="273000311831012" type="HurufAcak">
+                                    <param id="0" name="Target is">1</param>
+                                    <param id="1" name="Relativity">0</param>
+                                    <param id="2" name="Value">Self.YposisiAwalHurufAcak</param>
+                                </action>
+                                <action behavior="LiteTween" id="10" name="Start" sid="552232787891696" type="HurufAcak">
+                                    <param id="0" name="Start Mode">0</param>
+                                    <param id="1" name="Force use current">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="573055734088453">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="920424496384561" type="System" />
+                    </conditions>
+                    <actions>
+                        <action behavior="LiteTween" id="3" name="Set target" sid="897523382274223" type="HurufAcak">
+                            <param id="0" name="Target is">0</param>
+                            <param id="1" name="Relativity">0</param>
+                            <param id="2" name="Value">Self.XposisiAwalHurufAcak</param>
+                        </action>
+                        <action behavior="LiteTween" id="3" name="Set target" sid="442337086213599" type="HurufAcak">
+                            <param id="0" name="Target is">1</param>
+                            <param id="1" name="Relativity">0</param>
+                            <param id="2" name="Value">Self.YposisiAwalHurufAcak</param>
+                        </action>
+                        <action behavior="LiteTween" id="10" name="Start" sid="389524882067555" type="HurufAcak">
+                            <param id="0" name="Start Mode">0</param>
+                            <param id="1" name="Force use current">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="573640912864241">
+            <conditions>
+                <condition id="17" name="On tap object" sid="792784722055207" type="Touch">
+                    <param id="0" name="Object">Element_Game_58Converted_7</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="692122310236723" type="System">
+                    <param id="0" name="Layout">Home</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

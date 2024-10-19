@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>EventQuiz3</name>
+    <events>
+        <event-block sid="274099349132024">
+            <conditions>
+                <condition id="17" name="On tap object" sid="973827048499265" type="Touch">
+                    <param id="0" name="Object">btnmuteSound</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="700406641312147">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="503530985977744" type="System">
+                            <param id="0" name="Variable">statusSound</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;play&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="22" name="Set paused" sid="582588643681857" type="Audio">
+                            <param id="0" name="Tag">&quot;main_audio&quot;</param>
+                            <param id="1" name="State">0</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="707794920632094" type="btnmuteSound">
+                            <param id="0" name="Frame number">1</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="720647214117309" type="System">
+                            <param id="0" name="Variable">statusSound</param>
+                            <param id="1" name="Value">&quot;stop&quot;</param>
+                        </action>
+                        <action id="0" name="Play" sid="315031344910116" type="Audio">
+                            <param id="0" name="Audio file">mixkit-cool-interface-click-tone-2568</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="637014821418659">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="851865406423761" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="22" name="Set paused" sid="521737744376541" type="Audio">
+                            <param id="0" name="Tag">&quot;main_audio&quot;</param>
+                            <param id="1" name="State">1</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="704131162553014" type="btnmuteSound">
+                            <param id="0" name="Frame number">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="475563954526079" type="System">
+                            <param id="0" name="Variable">statusSound</param>
+                            <param id="1" name="Value">&quot;play&quot;</param>
+                        </action>
+                        <action id="0" name="Play" sid="222843670526624" type="Audio">
+                            <param id="0" name="Audio file">mixkit-cool-interface-click-tone-2568</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="380422706427336">
+            <conditions>
+                <condition id="17" name="On tap object" sid="636867087247451" type="Touch">
+                    <param id="0" name="Object">Element_Game_58Converted_2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="810234596949147" type="Audio">
+                    <param id="0" name="Audio file">mixkit-cool-interface-click-tone-2568</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="33" name="Stop all" sid="197915024581827" type="Audio" />
+                <action id="0" name="Play" sid="986270394318162" type="Audio">
+                    <param id="0" name="Audio file">mixkit-kidding-around-9</param>
+                    <param id="2" name="Loop">1</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;main_audio&quot;</param>
+                </action>
+                <action id="-9" name="Set value" sid="345095685153910" type="System">
+                    <param id="0" name="Variable">Score</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="752012813335313" type="System">
+                    <param id="0" name="Layout">Home</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="360203917367468">
+            <conditions>
+                <condition id="17" name="On tap object" sid="444560934368182" type="Touch">
+                    <param id="0" name="Object">36278Converted_3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="LiteTween" id="10" name="Start" sid="267674868867612" type="Element_Game_58Converted_6">
+                    <param id="0" name="Start Mode">0</param>
+                    <param id="1" name="Force use current">0</param>
+                </action>
+                <action behavior="LiteTween" id="10" name="Start" sid="420341480593734" type="Element_Game_58Converted_2">
+                    <param id="0" name="Start Mode">0</param>
+                    <param id="1" name="Force use current">0</param>
+                </action>
+                <action behavior="LiteTween" id="10" name="Start" sid="191551578506701" type="Nilai">
+                    <param id="0" name="Start Mode">0</param>
+                    <param id="1" name="Force use current">0</param>
+                </action>
+                <action id="0" name="Set text" sid="554846226674240" type="Nilai">
+                    <param id="0" name="Text">Score</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="681031000144983">
+                    <conditions>
+                        <condition id="-14" name="Pick by unique ID" sid="657946226950354" type="36278Converted_3">
+                            <param id="0" name="Unique ID">75</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Add to" sid="167842903483347" type="System">
+                            <param id="0" name="Variable">Score</param>
+                            <param id="1" name="Value">25</param>
+                        </action>
+                        <action id="0" name="Play" sid="375943982795415" type="Audio">
+                            <param id="0" name="Audio file">mixkit-kidding-around-9</param>
+                            <param id="2" name="Loop">1</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;main_audio&quot;</param>
+                        </action>
+                        <action id="0" name="Set text" sid="513111545495797" type="Nilai">
+                            <param id="0" name="Text">Score</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="312402668779664">
+                    <conditions>
+                        <condition id="-12" name="Repeat" sid="872295238814866" type="System">
+                            <param id="0" name="Count">50</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Create object" sid="298935875184209" type="System">
+                            <param id="0" name="Object to create">Particles</param>
+                            <param id="1" name="Layer">1</param>
+                            <param id="2" name="X">random(1280)</param>
+                            <param id="3" name="Y">random(720)</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+    </events>
+</c2eventsheet>
